@@ -26,7 +26,8 @@ export default function Home() {
       </div>
       <div className="flex justify-center items-center flex-col">
         <h3 className="text-secondary text-2xl font-raleway font-bold uppercase tracking-wide mb-10 md:text-lg">
-          News from <span className="text-danger">Bing News Search's API</span>
+          News from{" "}
+          <span className="text-danger">Bing News Search$apos;s API</span>
         </h3>
         {newsData.value?.map((news: any, index: any) => {
           return (
